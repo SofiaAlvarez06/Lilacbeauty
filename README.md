@@ -8,6 +8,9 @@ LilacBeauty is a beauty-focused reseller store website developed to provide user
 
 This project was developed to improve front-end development skills, with a focus on responsive design, organization, and user interaction.
 
+## 🌐 Live Preview
+
+[Click here to access the project](https://lilacbeauty.netlify.app/)
 ✨ Features
 Responsive and modern interface;
 Elegant beauty-inspired designç;
