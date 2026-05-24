@@ -1,12 +1,12 @@
-🌸 LilacBeauty
+# 🌸 LilacBeauty
 
-A modern beauty and cosmetics project focused on elegant design, smooth user experience, and responsive functionality.
+> A modern beauty and cosmetics project focused on elegant design, smooth user experience, and responsive functionality.
 
-📌 About the Project
+## 📌 About the Project
 
-LilacBeauty is a beauty-focused application/website developed to provide users with an intuitive and visually appealing experience. The project combines clean UI design with practical features, making it suitable for showcasing products, services, or beauty-related content.
+LilacBeauty is a beauty-focused reseller store website developed to provide users with an intuitive and visually appealing shopping experience. The project combines clean UI design with practical features, making it ideal for showcasing beauty and cosmetic products in a modern and organized way.
 
-This project was developed to improve front-end development skills, focusing on responsive design, organization, and user interaction.
+This project was developed to improve front-end development skills, with a focus on responsive design, organization, and user interaction.
 
 ✨ Features
 Responsive and modern interface
