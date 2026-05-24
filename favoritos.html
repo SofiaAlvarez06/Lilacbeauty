@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Favoritos - Lilac Beauty</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="navbar-container">
+    <a href="index.html" class="logo">
+      <img src="https://i.pinimg.com/736x/e0/0f/2a/e00f2af7f7c453ce9c75b028c4034449.jpg" alt="Lilac Beauty Logo">
+    </a>
+
+    <h1 class="site-title">Lilac Beauty</h1>
+
+    <nav class="nav-center">
+      <ul class="nav-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="sobre.html">Sobre Nós</a></li>
+        <li><button id="dark-mode-btn" class="dark-mode-toggle">🌙 Modo Escuro</button></li>
+        <li><a href="favoritos.html">❤ Favoritos</a></li>
+        <li><a href="carrinho.html">🛒 Carrinho</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <h1 class="carrinho-titulo">Meus Favoritos</h1>
+
+  <button id="remover-favoritos-selecionados">Remover selecionados</button>
+
+  <section id="favoritos-container"></section>
+</main>
+
+<footer class="footer-completo">
+  <div class="footer-newsletter">
+    <h2>JUNTE-SE A NÓS</h2>
+    <p>Obtenha descontos exclusivos</p>
+
+    <form>
+      <input type="text" placeholder="Nome" required>
+      <input type="email" placeholder="E-mail" required>
+      <button type="submit">QUERO ME INSCREVER</button>
+    </form>
+  </div>
+
+  <div class="footer-info">
+    <div class="footer-coluna">
+      <h3>CONECTE-SE</h3>
+      <ul>
+        <li><a href="#">Minha conta</a></li>
+        <li><a href="#">Minhas compras</a></li>
+        <li><a href="carrinho.html">Meu carrinho</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-coluna">
+      <h3>INSTITUCIONAL</h3>
+      <ul>
+        <li><a href="sobre.html">Sobre Nós</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="#">Formas de pagamento</a></li>
+        <li><a href="#">Prazos e entregas</a></li>
+        <li><a href="#">Trocas e devoluções</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-coluna">
+      <h3>ATENDIMENTO</h3>
+      <p>Segunda à sexta das 9h às 18h<br>Exceto feriados</p>
+      <p>Email: contato@lilacbeauty.com.br</p>
+    </div>
+  </div>
+
+  <div class="footer-creditos">
+    <p>Segurança garantida | Google Safe Browsing</p>
+    <p>276 avaliações - Nota 4.8</p>
+  </div>
+</footer>
+
+<script src="js/favoritos.js"></script>
+<script src="js/darkmode.js"></script>
+<script src="js/newsletter.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produtos - Lilac Beauty</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="mensagem-carrinho" class="mensagem-carrinho"></div>
+
+<header class="header">
+  <div class="navbar-container">
+    <a href="index.html" class="logo">
+      <img src="https://i.pinimg.com/736x/e0/0f/2a/e00f2af7f7c453ce9c75b028c4034449.jpg" alt="Lilac Beauty Logo">
+    </a>
+
+    <h1 class="site-title">Lilac Beauty</h1>
+
+    <nav class="nav-center">
+      <ul class="nav-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="sobre.html">Sobre Nós</a></li>
+        <li><button id="dark-mode-btn" class="dark-mode-toggle">🌙 Modo Escuro</button></li>
+        <li><a href="carrinho.html">🛒 Carrinho</a></li>
+        <li><a href="favoritos.html">❤ Favoritos</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="pesquisa-container" style="text-align: center; padding: 20px;">
+    <input type="text" id="pesquisa" placeholder="Buscar produto...">
+  </div>
+
+  <section class="vitrine">
+    <h1>Kits para presentear &lt;3!</h1>
+    <h2>Confira nossos kits especiais para presentear quem você ama!</h2>
+
+    <div class="card-container">
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://epocacosmeticos.vteximg.com.br/arquivos/ids/606179-450-450/ruby-kisses-kit-de-pinceis-rosto-e-olhos--3-.jpg?v=638496713086470000" alt="Kit de pincéis" class="menu-icon">
+        <h1>Kit de pincéis para olhos e face</h1>
+        <h2>Inclui 5 pincéis essenciais para o dia a dia.</h2>
+        <span>R$150,00</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://epocacosmeticos.vteximg.com.br/arquivos/ids/611646-450-450/KIT-21.jpg?v=638521184670730000" alt="Kit de máscara de cílios" class="menu-icon">
+        <h1>Kit de máscara de cílios</h1>
+        <h2>Para quem ama rímel, com muito volume.</h2>
+        <span>R$120,00</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://epocacosmeticos.vteximg.com.br/arquivos/ids/611643-450-450/KIT-18.jpg?v=638521175779670000" alt="Kit de rímel e batom" class="menu-icon">
+        <h1>Kit de rímel e batom líquido MAYBELLINE</h1>
+        <h2>Inclui 1 batom líquido semimate nude e uma máscara de cílios.</h2>
+        <span>R$200,00</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://www.sephora.com.br/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/pt_BR/dwcf6c0ea5/images/hi-res-BR/PDPs/IIP/GlowRecipe/SETS/FruitBabes/GR_HD6634_2.jpg?sw=1200&sh=1200&sm=fit" alt="Kit Glow Recipe" class="menu-icon">
+        <h1>Kit Glow Recipe</h1>
+        <h2>Inclui 3 miniaturas de produtos Glow Recipe para uma pele radiante.</h2>
+        <span>R$200,00</span>
+        <button class="comprar" disabled>Indisponível :(</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://i.pinimg.com/736x/53/2d/b5/532db53543bcdd96be7915cb391ebc1d.jpg" alt="Kit de glosses FRAN" class="menu-icon">
+        <h1>Kit 3 Glosslicious FRAN</h1>
+        <h2>Uma edição limitada dos maiores campeões de venda!</h2>
+        <span>R$90,00</span>
+        <button class="comprar">Comprar</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="olhos" class="vitrine">
+    <h1>Para realçar seu olhar.</h1>
+    <h2>Confira nossos produtos para olhos e arrase no olhar!</h2>
+
+    <div class="card-container">
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://i.pinimg.com/736x/20/17/f3/2017f331081f70ce8d90947566105c34.jpg" alt="Rímel Laranja Melu" class="menu-icon">
+        <h1>Rímel Laranja Melu</h1>
+        <h2>O rímel Laranja Melu alonga e define os cílios.</h2>
+        <span>R$19,90</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://i.pinimg.com/736x/7c/5f/96/7c5f96ad4c7b2f7d6644ecaa49c38432.jpg" alt="Rímel Marrom Vizella" class="menu-icon">
+        <h1>Rímel Marrom Vizella</h1>
+        <h2>Alongamento com acabamento fino e natural.</h2>
+        <span>R$50,00</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://i.pinimg.com/736x/6d/93/82/6d9382daa83376c5eea00aa3743885c6.jpg" alt="Máscara para cílios FRAN" class="menu-icon">
+        <h1>Máscara para cílios FRAN</h1>
+        <h2>A máscara MARAVICHERRY fornece extremo volume a cada aplicação.</h2>
+        <span>R$60,00</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://epocacosmeticos.vteximg.com.br/arquivos/ids/595090-450-450/7899026456051_2.jpg?v=638447475276070000" alt="Máscara para cílios Maybelline" class="menu-icon">
+        <h1>Máscara para cílios Maybelline</h1>
+        <h2>Oferece 24 horas de volume sem borrar.</h2>
+        <span>R$60,00</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://i.pinimg.com/736x/01/df/87/01df87d7a4d979db73895e01fd494c1e.jpg" alt="Delineador líquido MELU" class="menu-icon">
+        <h1>Delineador líquido MELU</h1>
+        <h2>Para deixar seu olhar marcante e à prova d'água.</h2>
+        <span>R$27,00</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://i.pinimg.com/1200x/f9/04/a7/f904a7089151cd45afb93a37f7a3d402.jpg" alt="Caneta delineadora Mari Maria" class="menu-icon">
+        <h1>Caneta delineadora MARI MARIA</h1>
+        <h2>Perfeita para quem busca resultados mais precisos.</h2>
+        <span>R$56,00</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://i.pinimg.com/736x/c5/b2/cc/c5b2cce3b8c81e8c1436e13eecae0221.jpg" alt="Delineador rosa VULT" class="menu-icon">
+        <h1>Delineador rosa VULT</h1>
+        <h2>Ideal para quem ama um delineado colorido.</h2>
+        <span>R$30,00</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://i.pinimg.com/1200x/b3/a7/5c/b3a75c639310b8fcc60b13c3573a1881.jpg" alt="Cera para sobrancelhas" class="menu-icon">
+        <h1>Cera para sobrancelhas</h1>
+        <h2>Para deixar suas sobrancelhas no lugar o dia todo.</h2>
+        <span>R$25,00</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://http2.mlstatic.com/D_NQ_NP_954018-MLU76520343536_052024-O.webp" alt="Máscara para sobrancelhas" class="menu-icon">
+        <h1>Máscara para sobrancelhas</h1>
+        <h2>Para acelerar o crescimento com aplicador mini.</h2>
+        <span>R$45,00</span>
+        <button class="comprar">Comprar</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="pele" class="vitrine">
+    <h1>Bases para deixar sua pele linda e uniforme!</h1>
+    <h2>Confira nossas bases e iluminadores para arrasar na make!</h2>
+
+    <div class="card-container">
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://i.pinimg.com/736x/33/86/85/3386852543c647b0292fe25de7628577.jpg" alt="Base Mari Maria" class="menu-icon">
+        <h1>Base Mari Maria Cover Up</h1>
+        <h2>A base Cover Up deixa a pele aveludada e uniforme.</h2>
+        <span>R$56,00</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://i.pinimg.com/736x/4a/80/66/4a80666a2abbe818b79f98b09590b6a8.jpg" alt="Base Vizella" class="menu-icon">
+        <h1>Base líquida FIX</h1>
+        <h2>Base fluida com média cobertura, perfeita para o dia a dia.</h2>
+        <span>R$69,90</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://i.pinimg.com/736x/ef/67/cf/ef67cfb838d107c294a361d9b4b35bfb.jpg" alt="Base Stick Oceane" class="menu-icon">
+        <h1>Base Stick Oceane</h1>
+        <h2>Base em bastão com alta cobertura e acabamento matte.</h2>
+        <span>R$49,90</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://i.pinimg.com/736x/d2/fc/ab/d2fcab1bb9ac5f3b29dfdf72b806bbe3.jpg" alt="Base Nina Secrets" class="menu-icon">
+        <h1>Base Niina Secrets</h1>
+        <h2>Base líquida Hidra Glow que hidrata e ilumina a pele.</h2>
+        <span>R$89,90</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://bocarosa.com.br/cdn/shop/files/BR_01.png?v=1744145027&width=600" alt="Base Boca Rosa" class="menu-icon">
+        <h1>Base Boca Rosa</h1>
+        <h2>Base em bastão com cobertura leve e multifunções.</h2>
+        <span>R$80,00</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://i.pinimg.com/736x/d6/e7/df/d6e7df37f0490e09116cb5b919eadc41.jpg" alt="BB Cream Latika" class="menu-icon">
+        <h1>BB Cream Latika</h1>
+        <h2>Fórmula hidratante perfeita para usar no dia a dia.</h2>
+        <span>R$95,00</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://i.pinimg.com/736x/d4/c7/2b/d4c72bb817aaccff85c0753883f35a06.jpg" alt="Base FRAN" class="menu-icon">
+        <h1>Base Real Filter FRAN</h1>
+        <h2>Base semimatte formulada para uma pele perfeita.</h2>
+        <span>R$75,00</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://i.pinimg.com/736x/9a/ff/52/9aff52d4f05014ff8740ba5d5db3a911.jpg" alt="Base Melu" class="menu-icon">
+        <h1>Base Soft Blend Melu</h1>
+        <h2>Feita para peles oleosas, com vitamina E.</h2>
+        <span>R$30,00</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://i.pinimg.com/736x/a6/d0/b4/a6d0b425502d0e06e6e10ed3aff60f7f.jpg" alt="Iluminador cremoso MELU" class="menu-icon">
+        <h1>Iluminador cremoso MELU</h1>
+        <h2>Textura leve, fácil aplicação e efeito glow.</h2>
+        <span>R$24,99</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://i.pinimg.com/736x/de/b0/ff/deb0fff2d5ecc8a0ddf5c14798f907e5.jpg" alt="Iluminador líquido Hello Kitty" class="menu-icon">
+        <h1>Iluminador Hello Kitty BT</h1>
+        <h2>Efeito purpurinado com fórmula leve e brilho colorido.</h2>
+        <span>R$60,00</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://i.pinimg.com/736x/93/63/4d/93634de2a3de627971f268f8cae2881f.jpg" alt="Iluminador Larissa Manoela" class="menu-icon">
+        <h1>Iluminador em bastão Larissa Manoela</h1>
+        <h2>Formato compacto para quem busca um brilho viçoso.</h2>
+        <span>R$60,00</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://i.pinimg.com/736x/6e/a8/4f/6ea84f44a81b11fb9d9eec817f2a3196.jpg" alt="Iluminador em pó" class="menu-icon">
+        <h1>Iluminador em pó solto Vizella</h1>
+        <h2>Brilho dourado perfeito para finalizar a maquiagem.</h2>
+        <span>R$35,00</span>
+        <button class="comprar">Comprar</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="batons" class="vitrine">
+    <h1>Destaque seus lábios!</h1>
+    <h2>Confira nossos batons, glosses e mais para arrasar!</h2>
+
+    <div class="card-container">
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://i.pinimg.com/736x/79/99/01/799901f930646242f93b39b7f63760aa.jpg" alt="Batom nude" class="menu-icon">
+        <h1>Batom líquido matte nude</h1>
+        <h2>Acabamento super matte, ideal para festas.</h2>
+        <span>R$55,00</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://i.pinimg.com/736x/d1/1f/52/d11f526638979f05a99f9b7da3d69ac1.jpg" alt="Gloss Melu" class="menu-icon">
+        <h1>Lip Gloss Pink Melu</h1>
+        <h2>Lábios hidratados e com efeito de boneca.</h2>
+        <span>R$29,90</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://i.pinimg.com/736x/ae/9e/86/ae9e864fa0e79e89db6f6844536a50f2.jpg" alt="Lip Gloss Karen Bachini" class="menu-icon">
+        <h1>Lip Gloss Karen Bachini</h1>
+        <h2>Para aquele efeito cintilante nos lábios!</h2>
+        <span>R$45,00</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://i.pinimg.com/736x/2d/c7/43/2dc743062dc05ff4168f17b279a92722.jpg" alt="Batom vermelho Mari Maria" class="menu-icon">
+        <h1>Batom Ultra Cremoso Mari Maria</h1>
+        <h2>Para as amantes de vermelho, com tom mais fechado.</h2>
+        <span>R$60,00</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://i.pinimg.com/736x/7d/6c/56/7d6c5695b3bb948fbde1c2caff0347a6.jpg" alt="Lip tint" class="menu-icon">
+        <h1>Lip Tint QDB</h1>
+        <h2>Praticidade para usar nos olhos, bochechas e boca.</h2>
+        <span>R$38,99</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://i.pinimg.com/736x/35/1b/37/351b37a7bde1427b2b16407ac06a7633.jpg" alt="Batom Ruby Rose" class="menu-icon">
+        <h1>Batom Obsidian Ruby Rose</h1>
+        <h2>Fórmula semimatte com ativos de nutrição.</h2>
+        <span>R$60,00</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://i.pinimg.com/736x/e9/57/09/e957097fde8347cae75f4bc27a941f38.jpg" alt="Lip oil Melu" class="menu-icon">
+        <h1>Lip Oil MELU</h1>
+        <h2>Proporciona hidratação intensa e brilho aos lábios.</h2>
+        <span>R$35,00</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://i.pinimg.com/736x/94/43/2d/94432dd137c94175759b1199a068c31a.jpg" alt="Gloss balm" class="menu-icon">
+        <h1>Gloss Lip Balm</h1>
+        <h2>Aspecto espelhado e hidratação ao mesmo tempo.</h2>
+        <span>R$15,00</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://i.pinimg.com/736x/88/2b/04/882b047ce47fdbe5e6e160bb3caa34f4.jpg" alt="Lip balm caneta" class="menu-icon">
+        <h1>Lip Balm Oceane</h1>
+        <h2>Formato caneta, com efeito de gloss nos lábios.</h2>
+        <span>R$50,00</span>
+        <button class="comprar">Comprar</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="blush" class="vitrine">
+    <h1>Bochechas coradas e corações derretidos.</h1>
+    <h2>Escolha o seu favorito e brilhe com um toque de cor!</h2>
+
+    <div class="card-container">
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://i.pinimg.com/736x/42/e0/3b/42e03b3006537dedb65e5589904382a2.jpg" alt="Blush stick PIXI" class="menu-icon">
+        <h1>Blush em stick PIXI</h1>
+        <h2>Blush laranja com acabamento cremoso.</h2>
+        <span>R$60,00</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://i.pinimg.com/736x/67/a3/95/67a3950a2a2bf16c8cff194dd38c5006.jpg" alt="Blush stick OCEANE" class="menu-icon">
+        <h1>Blush em stick OCEANE</h1>
+        <h2>Toque de queimado de sol para bochechas rosadas.</h2>
+        <span>R$56,00</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://i.pinimg.com/736x/c8/87/c2/c887c2e243a704c916b88accdae17e2e.jpg" alt="Blush cremoso MELU" class="menu-icon">
+        <h1>Blush cremoso MELU</h1>
+        <h2>Efeito natural e matte com alta fixação.</h2>
+        <span>R$60,00</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://i.pinimg.com/736x/49/53/70/4953703bb2a1ce610d8c79f4cc3a0f8b.jpg" alt="Blush líquido Ruby Rose" class="menu-icon">
+        <h1>Blush líquido Ruby Rose</h1>
+        <h2>Fórmula líquida com alta fixação.</h2>
+        <span>R$30,00</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://i.pinimg.com/736x/c1/bf/f8/c1bff8620403062582453b6cf9e8ab5b.jpg" alt="Blush Oceane" class="menu-icon">
+        <h1>Blush Me OCEANE</h1>
+        <h2>Efeito espelhado e alta performance.</h2>
+        <span>R$40,00</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://i.pinimg.com/736x/b9/c0/b0/b9c0b046ca8d3afff34d0d49fc1f12a6.jpg" alt="Contorno stick" class="menu-icon">
+        <h1>Contorno Stick OCEANE</h1>
+        <h2>Perfeito para aquele bronzeamento natural.</h2>
+        <span>R$40,00</span>
+        <button class="comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <button class="favorito">❤</button>
+        <img src="https://i.pinimg.com/736x/c3/72/ab/c372ab89b2bf682955af2900ad29ac9e.jpg" alt="Contorno em pó BT" class="menu-icon">
+        <h1>Contorno em pó BT</h1>
+        <h2>Realça a beleza natural sem pesar no visual.</h2>
+        <span>R$60,00</span>
+        <button class="comprar">Comprar</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer-completo">
+  <div class="footer-newsletter">
+    <h2>JUNTE-SE A NÓS</h2>
+    <p>Obtenha descontos exclusivos</p>
+
+    <form>
+      <input type="text" placeholder="Nome" required>
+      <input type="email" placeholder="E-mail" required>
+      <button type="submit">QUERO ME INSCREVER</button>
+    </form>
+  </div>
+
+  <div class="footer-info">
+    <div class="footer-coluna">
+      <h3>CONECTE-SE</h3>
+      <ul>
+        <li><a href="#">Minha conta</a></li>
+        <li><a href="#">Minhas compras</a></li>
+        <li><a href="#">Meu carrinho</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-coluna">
+      <h3>INSTITUCIONAL</h3>
+      <ul>
+        <li><a href="sobre.html">Sobre Nós</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="#">Formas de pagamento</a></li>
+        <li><a href="#">Prazos e entregas</a></li>
+        <li><a href="#">Trocas e devoluções</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-coluna">
+      <h3>ATENDIMENTO</h3>
+      <p>Segunda à sexta das 9h às 18h<br>Exceto feriados</p>
+      <p>Email: contato@lilacbeauty.com.br</p>
+    </div>
+
+    <div class="footer-coluna">
+      <h3>PRECISA DE AJUDA?</h3>
+      <ul>
+        <li><a href="#">Rastreie seu pedido</a></li>
+        <li><a href="#">Fale conosco</a></li>
+      </ul>
+
+      <h3>FORMAS DE PAGAMENTO</h3>
+      <p>Pague com Mercado Pago<br>Pague com Pix ou crédito!</p>
+
+      <img src="https://i.pinimg.com/736x/de/72/b5/de72b5cd21b9c827639853f666b51b50.jpg" alt="Visa" width="40">
+      <img src="https://i.pinimg.com/736x/36/7c/26/367c26d9ba9b9043c9bb4b5a17ab4d2f.jpg" alt="Mastercard" width="40">
+      <img src="https://i.pinimg.com/736x/94/92/8e/94928ed7721f00d89bdac062650579ae.jpg" alt="Pix" width="40">
+    </div>
+  </div>
+
+  <div class="footer-creditos">
+    <p>Segurança garantida | Google Safe Browsing</p>
+    <p>276 avaliações - Nota 4.8</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+<script src="js/carrinho.js"></script>
+<script src="js/favoritos.js"></script>
+<script src="js/pesquisa.js"></script>
+<script src="js/darkmode.js"></script>
+<script src="js/animacoes.js"></script>
+<script src="js/newsletter.js"></script>
+
+</body>
+</html>

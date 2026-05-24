@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout - Lilac Beauty</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="navbar-container">
+    <a href="index.html" class="logo">
+      <img src="https://i.pinimg.com/736x/e0/0f/2a/e00f2af7f7c453ce9c75b028c4034449.jpg" alt="Lilac Beauty Logo">
+    </a>
+
+    <h1 class="site-title">Lilac Beauty</h1>
+
+    <nav class="nav-center">
+      <ul class="nav-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="sobre.html">Sobre Nós</a></li>
+        <li><button id="dark-mode-btn" class="dark-mode-toggle">🌙 Modo Escuro</button></li>
+        <li><a href="favoritos.html">❤ Favoritos</a></li>
+        <li><a href="carrinho.html">🛒 Carrinho</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="checkout-page">
+  <h1 class="carrinho-titulo">Finalizar Pedido</h1>
+
+  <section class="checkout-container">
+    <div class="checkout-resumo">
+      <h2>Resumo do pedido</h2>
+      <div id="checkout-itens"></div>
+      <p class="checkout-total">Total: <span id="checkout-total">R$0,00</span></p>
+    </div>
+
+    <form id="checkout-form" class="checkout-form">
+      <h2>Dados de entrega</h2>
+
+      <input type="text" id="nome-cliente" placeholder="Nome completo" required>
+      <input type="email" id="email-cliente" placeholder="E-mail" required>
+      <input type="text" id="endereco-cliente" placeholder="Endereço" required>
+      <input type="text" id="cidade-cliente" placeholder="Cidade" required>
+
+      <select id="pagamento-cliente" required>
+        <option value="">Forma de pagamento</option>
+        <option value="pix">Pix</option>
+        <option value="credito">Cartão de crédito</option>
+        <option value="debito">Cartão de débito</option>
+      </select>
+
+      <button type="submit" class="comprar">Finalizar pedido</button>
+    </form>
+  </section>
+
+  <div id="pedido-sucesso" class="pedido-sucesso">
+    Pedido realizado com sucesso! Obrigada por comprar na Lilac Beauty.
+  </div>
+</main>
+
+<footer class="footer-completo">
+  <div class="footer-newsletter">
+    <h2>JUNTE-SE A NÓS</h2>
+    <p>Obtenha descontos exclusivos</p>
+
+    <form>
+      <input type="text" placeholder="Nome" required>
+      <input type="email" placeholder="E-mail" required>
+      <button type="submit">QUERO ME INSCREVER</button>
+    </form>
+  </div>
+</footer>
+
+<script src="js/checkout.js"></script>
+<script src="js/darkmode.js"></script>
+<script src="js/newsletter.js"></script>
+
+</body>
+</html>
